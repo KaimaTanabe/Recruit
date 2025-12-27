@@ -200,7 +200,7 @@
             margin-top: -50px;
             position: relative;
             z-index: 10;
-            padding-bottom: 60px; /* 下部余白調整 */
+            padding-bottom: 80px;
         }
 
         .feature-grid {
@@ -239,58 +239,6 @@
             .features {
                 margin-top: 0;
                 padding-top: 60px;
-            }
-        }
-
-        /* --- ★新規追加：建設業許可 (License) --- */
-        .license-section {
-            background-color: var(--white);
-            padding-top: 60px; /* ★修正：上の余白を追加してラベルが見えるように調整 */
-            padding-bottom: 80px;
-            text-align: center;
-        }
-
-        .license-box {
-            border: 2px solid var(--accent-color);
-            padding: 30px 20px;
-            border-radius: 8px;
-            max-width: 800px;
-            margin: 0 auto;
-            position: relative;
-            background-color: #fffcf5; /* ほんのりゴールドっぽい背景 */
-        }
-
-        /* 枠線の上にタイトルを乗せる装飾 */
-        .license-label {
-            position: absolute;
-            top: -15px;
-            left: 50%;
-            transform: translateX(-50%);
-            background-color: var(--accent-color);
-            color: var(--white);
-            padding: 5px 20px;
-            font-size: 0.9rem;
-            font-weight: 700;
-            border-radius: 20px;
-            white-space: nowrap; /* ★修正：スマホで文字が折り返して崩れるのを防止 */
-        }
-
-        .license-number {
-            font-size: 1.4rem;
-            font-weight: 700;
-            color: var(--primary-color);
-            margin-bottom: 10px;
-            line-height: 1.4;
-        }
-
-        .license-text {
-            font-size: 0.9rem;
-            color: #555;
-        }
-
-        @media (max-width: 768px) {
-            .license-number {
-                font-size: 1.1rem;
             }
         }
 
@@ -563,24 +511,6 @@
         </div>
     </section>
 
-    <!-- ★新規追加：建設業許可アピールエリア -->
-    <section class="license-section">
-        <div class="container">
-            <div class="license-box">
-                <span class="license-label">信頼の証</span>
-                <!-- ▼ 重要：ご自身の許可番号に書き換えてください ▼ -->
-                <h3 class="license-number">
-                    建設業許可 千葉県知事 許可（般-6）第57613号<br>
-                    <span style="font-size: 1rem; font-weight: normal;">（とび・土工）</span>
-                </h3>
-                <p class="license-text">
-                    当社は建設業許可を取得している正規の建設業者です。<br>
-                    法令遵守と安全管理を徹底し、安定した経営基盤のもと業務を行っています。
-                </p>
-            </div>
-        </div>
-    </section>
-    
     <!-- 3つの特徴 -->
     <section id="features" class="features">
         <div class="container">
@@ -603,8 +533,6 @@
             </div>
         </div>
     </section>
-
-
 
     <!-- 仕事内容 -->
     <section id="service" class="section-padding service">
@@ -700,7 +628,7 @@
                 </tr>
                 <tr>
                     <th>勤務地</th>
-                    <td>主に千葉県内のプラント工場</td>
+                    <td>主に千葉県内のプラント工場（事務所に集合して現場へ向かいます）</td>
                 </tr>
                 <tr>
                     <th>勤務時間</th>
@@ -742,8 +670,7 @@
                         LINEで応募・質問
                         <span class="contact-note">24時間受付中</span>
                     </a>
-                    <!-- 修正：電話番号リンクを有効にしました -->
-                    <a href="tel:09016127738" class="contact-btn btn-tel">
+                    <a href="tel:" class="contact-btn btn-tel">
                         電話で応募・質問
                         <span class="contact-note">090-1612-7738（代表直通）</span>
                     </a>
